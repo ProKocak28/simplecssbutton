@@ -1,0 +1,30 @@
+button {
+    padding: 10px 14px;
+    margin: 15px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+    background: rgb(0, 128, 0);
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: rgb(34,165,34)
+  }
+  
+  button:active {
+    transform: translateY(3px);
+    transition-duration: .10s;
+  }
+  
+  button:active:hover {
+    background: rgb(0, 200, 0)
+  }
+  
+  .simplebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
